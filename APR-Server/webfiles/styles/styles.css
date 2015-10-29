@@ -1,0 +1,26 @@
+#content {
+    width: 900px;
+    margin: 0 auto;
+	margin-top: 50px;
+    background-color: #FAFAE3;
+	border:3px solid black;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	min-height: 500px;
+}
+
+#leftcolumn { 
+	margin-left: 70px;
+	width: 250px; 
+	float: left;
+	padding: 0;
+	
+}
+
+#rightcolumn { 
+	width: 500px; 
+	float: left;
+	padding: 0;
+}
+
+body { background: #4E5B79 }

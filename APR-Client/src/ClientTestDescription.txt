@@ -1,0 +1,39 @@
+The G52APR Client class was tested by the ClientTest class.
+
+"http://cs.nott.ac.uk/~cah/" URL was used to test GET and HEAD method.
+
+The output of GET Method is the HTML format string. 
+The format like that:
+
+<html><!-- #BeginTemplate "/Templates/mainTemplate.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Colin Higgins</title>
+.......
+
+The output of HEAD method is the header format like that:
+
+Date: Sun, 11 Nov 2012 21:27:22 GMT
+Server: Apache/2.2.22 (Linux/SUSE)
+Last-Modified: Thu, 10 Mar 2011 12:48:43 GMT
+ETag: "6193-393b-49e2043f340c0"
+Accept-Ranges: bytes
+Content-Length: 14651
+Keep-Alive: timeout=15, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+"http://posttestserver.com/post.php" URL and a "APR" String were used
+ to test POST method.
+The output of the POST method is that:
+
+Successfully dumped 0 post variables.
+View it at http://www.posttestserver.com/data/2012/11/11/13.27.23803893178
+Post body was 3 chars long.
+
+Then enter the webite it shows, it shows some information like that:
+== Begin post body ==
+APR
+== End post body ==
+
+

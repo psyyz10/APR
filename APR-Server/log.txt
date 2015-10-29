@@ -1,0 +1,63 @@
+Thu, 13 Dec 2012 14:59:52 GMT, $, starting logging
+Thu, 13 Dec 2012 15:00:04 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:04 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:19 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:19 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:19 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:19 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:00:19 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:19 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:21 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:21 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:00:21 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:21 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:21 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:00:21 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:21 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:22 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:22 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:22 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:00:22 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:00:22 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:00:22 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:00:22 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 15:01:08 GMT, $, starting logging
+Thu, 13 Dec 2012 15:01:14 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:01:14 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 15:01:14 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 15:01:14 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 15:01:14 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 15:01:14 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 16:17:32 GMT, $, starting logging
+Thu, 13 Dec 2012 16:17:42 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:17:42 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 16:17:50 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:17:50 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 16:18:53 GMT, $, starting logging
+Thu, 13 Dec 2012 16:19:04 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:19:04 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 16:36:42 GMT, $, starting logging
+Thu, 13 Dec 2012 16:36:48 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:36:48 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 16:36:48 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 16:36:48 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 16:36:48 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:36:48 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 16:40:43 GMT, $, starting logging
+Thu, 13 Dec 2012 16:40:52 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:40:52 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 16:40:52 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 16:40:52 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 16:40:52 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:40:52 GMT, <, /index.html, HTTP/1.0 200 OKThu, 13 Dec 2012 16:44:42 GMT, $, starting logging
+Thu, 13 Dec 2012 16:44:47 GMT, >, /index.html, GET /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:44:47 GMT, <, /index.html, HTTP/1.0 200 OK
+Thu, 13 Dec 2012 16:44:47 GMT, >, /1234.html, GET /1234.html HTTP/1.0
+Thu, 13 Dec 2012 16:44:47 GMT, <, /1234.html, HTTP/1.0 404 Not Found error
+Thu, 13 Dec 2012 16:44:47 GMT, >, /index.html, POST /index.html HTTP/1.0
+Thu, 13 Dec 2012 16:44:47 GMT, <, /index.html, HTTP/1.0 200 OK

@@ -1,0 +1,72 @@
+Both my client java file and internet browser was used to test the Server part (cw2).
+
+1. Using client to test, a serverTest java file was used.
+
+For httpGet() method:
+
+for not PHP file test:
+System.out.println(client.httpGet("http://localhost:4444/index.html"); was used to test it. 
+Then the content of the entity body (HTML format) displayed on the console.
+for PHP file test:
+System.out.println(client.httpGet("http://localhost:4444/phpinfo.php"); was used to test it. 
+Then the content of executed result displayed on the console.
+
+I wanted to know that if a not existent file was accessed, what will happen. 
+And System.out.println(client.httpHead("http://localhost:4444/1234.html"); was used. "1234.html" is a not existent file. 
+Then run the test, the console displayed "HTTP/1.0 404 Not Found error".
+
+I wanted to know that if a unreadable file was accessed, what will happen. 
+Then index.html was set to deny read.
+And System.out.println(client.httpHead("http://localhost:4444/index.html"); was used.
+Then run the test, the console displayed "HTTP/1.0 403 Forbidden error".
+
+I wanted to know that if a PHP file cannot be executed, what will happen. 
+Then phpinfo.php was set to deny read && execute.
+And System.out.println(client.httpHead("http://localhost:4444/phpinfo.php"); was used.
+Then run the test, the console displayed "HTTP/1.0 500 Internal Server error".
+----------------------------------------------------------------------------------------------------------------------------------
+For httpConditionnalGET() method:
+
+A "If-Modified-Since:" header was added to the client, and use (part a)'s file to test the httpConditionnalGET();
+but the URL was changed to "http://localhost:4444/index.html"; 
+The result was the same as the (part a)'s result of client test by accessing the client.httpGet("http://cs.nott.ac.uk/~syn/webfiles/index.html"); 
+Page 3 was not displayed due to the earlier modified date.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+For httpHEAD() method:
+
+System.out.println(client.httpHead("http://localhost:4444/index.html"); was used to test it. 
+The console displayed the header like that:
+Date: Wed, 28 Nov 2012 05:55:17 GMT
+Content-type: text/html
+Last-Modified: Fri, 16 Nov 2012 18:24:30 GMT
+Content-Length: 915
+
+For the test method of "HTTP/1.0 404 Not Found error", "HTTP/1.0 403 Forbidden error" and "HTTP/1.0 500 Internal Server error"
+is the same as httpGet() method's test.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+For httpPost() method, some tests was done:
+
+System.out.println(client.httpPost("http://localhost:4444/asdf.txt", "G52APR"); was used to test the post method.
+At server side, new "asdf.txt" file was created in the project folder, when it was open, the content is "G52APR".
+At test side, the console displays "HTTP/1.0 201 Created".
+
+When the test code run again, test console displays "G52APR", the content of existent file.
+
+The For httpGet()'s test method also be used to test httpPost();
+-----------------------------------------------------------------------------------------------------------------------------------
+2. Using web browser to test
+
+Use Firefox browser to test it. At first enter URL "http://localhost:4444/index.html"
+The web page is not contains css file. Then I use firebug to test it, found that the requesURL is changed.
+So the content type maybe wrong. Then I add a function to set the content type "text/html" or "text/css" or "image/png".
+Then the same page as "http://cs.nott.ac.uk/~syn/webfiles/index.html" appears.
+Then use firebug to see the headers.
+
+Enter URL "http://localhost:4444/phpinfo.php"
+A 4099 content-length response appears.
+
+Use the same method as httpGet test method in preceding part,
+and looks fire bug's status code, "404 Not Found error", 403 Forbidden error, 500 Internal Server error appears respectively.
+-----------------------------------------------------------------------------------------------------------------------------------
